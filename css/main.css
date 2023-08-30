@@ -42,3 +42,108 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  max-width: 320px;
+  margin: auto;
+  text-align:center;
+  padding-top:20px;
+  border: 1px solid #9d9d9d;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+nav a {
+  font-size: 16px;
+  margin: 10px;
+}
+
+header nav{
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 11px;
+  font-weight: 700;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 0 10px;
+  max-width: 45%;
+  display:flex;
+  justify-content: center;
+  margin: 20px 85px;
+}
+
+h1{
+  font-size:24px;
+  line-height: 1.2;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+p{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height:1.2;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cook-week {
+  background-color: #eaede7;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cook-week h3{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align:left;
+}
+
+.recipe{
+  background-color: white;
+  border: 1px solid #9d9d9d;
+  margin-top: 15px;
+}
+
+.recipe p{
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 15px;
+}
+
+footer{
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 25px 15px;
+}
+
+h4{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer p{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.recipe-day p{
+  padding-top: 15px;
+}
+
+.recipe-day h3{
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
